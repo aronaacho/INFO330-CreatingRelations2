@@ -11,9 +11,9 @@ INSERT INTO split_abilities
 WITH split(pokedex_number, ability, nextability) -- 1. start of query
     AS (
         SELECT -- 2. start of anchor query: selecting the abilities of each pokedex_number
-							pokedex_number, 
-							'' AS ability, 
-							abilities||',' AS nextability 
+				pokedex_number, 
+				'' AS ability, 
+				abilities||',' AS nextability 
         FROM imported_pokemon_data -- 2. end of anchor query
         UNION ALL -- 4. union: connects the queries together
             SELECT pokedex_number, -- 3. start of recursive query: selecting and sunstr/instr-ing individual abilities into ability and nextability
