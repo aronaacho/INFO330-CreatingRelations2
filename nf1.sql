@@ -52,5 +52,6 @@ DROP TABLE imported_pokemon_data;
 
 /* 
 resulting tables:
+------------------
 nf1
 */

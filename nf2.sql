@@ -200,7 +200,7 @@ DROP TABLE nf1;
 DROP TABLE imported_pokemon_data;
 
 /*
-total tables:
+resulting tables:
 ----------------------------------------
 abilities            pokemon_basic_stats
 pokemon_abilities    type_effectiveness

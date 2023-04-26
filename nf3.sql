@@ -25,7 +25,7 @@ ALTER TABLE pokemon_basic_stats DROP COLUMN type1;
 ALTER TABLE pokemon_basic_stats DROP COLUMN type2;
 
 /*
-total tables:
+resulting tables:
 -------------------------------------------------
 abilities            pokemon_types        types              
 pokemon_abilities    type_against       
